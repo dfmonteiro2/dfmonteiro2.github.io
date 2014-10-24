@@ -91,51 +91,60 @@ html[xmlns] .clearfix { display: block; }
 #nav {
 	font-family:Serif;
 	font-weight:bold;
-	width: 550px;
-	height: 35px;
-	font-size: 16px;
-	text-align: center;
-	border-radius: 2px;
-}
-
-#nav ul {
-	height: auto;
-    padding: 8px 0px;
-    margin: 0px;	
+	font-size: 20px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-align:center;
+	display: inline; 
 }
 
 #nav li {
 	display: inline; 
-	padding: 20px; 
+	padding: 10px; 
 	text-align:center;
 }
 
-#hr {
-	size:5;
-	color:black;
-	background-color:black;
-	height: 5px;
-}
 
 #article1 {
-	width: 400px;
-	padding: 10px; 
+	width: 375px;
+	font-size:10px;
+	padding: 15px 10px 20px 10px; 
 	float:left;
-}
-
-#images/stoned-dog.jpg {
-	width: 400px;
 }
 
 #article2 {
-	width: 400px;
-	padding: 10px; 
+	width: 375px;
+	font-size:10px;
+	padding: 15px 10px 20px 10px; 
 	float:left;
 }
 
+h1{
+	text-transform:normal;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:.2px;
+	padding: 5px 5px 5px 0px;
+}
 
+#bottom-footer{
+	clear:both;
+}
 
+#footer {
+	clear:both;
+}
 
+#wiki{
+	text-align:left;
+	text-width:400px;
+}
+
+#martha{
+	text-align: right;
+	text-width: 400px;
+	padding: none
+}
 
 
 
