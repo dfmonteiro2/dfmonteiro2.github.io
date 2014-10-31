@@ -79,13 +79,21 @@ html[xmlns] .clearfix { display: block; }
 #site-header {
 	width:445;
 	height:95;
+	display:inline-block;
 }
+
+header {text-align:center;}
 
 #body {
 	background-color: white;
 	width:900px;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+hr {
+	border:solid 1.2px black;
+	
 }
 
 #nav {
@@ -136,15 +144,21 @@ h1{
 }
 
 #wiki{
-	text-align:left;
-	text-width:400px;
+	float:left;
+	width:400px;
 }
 
 #martha{
-	text-align: right;
-	text-width: 400px;
-	padding: none
+	float: right;
+	width: 400px;
+	padding: none;
+	text-align:right;
 }
+
+span {
+	color:red;
+}
+
 
 
 
