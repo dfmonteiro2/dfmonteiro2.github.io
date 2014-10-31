@@ -26,30 +26,36 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 
 /* Center Content */
 
@@ -57,7 +63,6 @@ table {
   margin:0 auto;
   width:960px;
 }
-
 
 /* Clearfix */
 .clearfix:after {
@@ -73,12 +78,24 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-
 /* ------------  start here --------------- */
 
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('type/leaguegothic-regular-webfont.eot');
+    src: url('type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('type/leaguegothic-regular-webfont.woff') format('woff'),
+         url('type/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #site-header {
-	width:445;
-	height:95;
+	width:50%;
+	padding:10px;
 	display:inline-block;
 }
 
@@ -86,20 +103,19 @@ header {text-align:center;}
 
 #body {
 	background-color: white;
-	width:900px;
+	width:90%;
 	margin-left:auto;
 	margin-right:auto;
 }
 
 hr {
 	border:solid 1.2px black;
-	
 }
 
 #nav {
 	font-family:Serif;
 	font-weight:bold;
-	font-size: 20px;
+	font-size: 15px;
 	word-spacing: 10px;
 	text-transform: uppercase;
 	text-align:center;
@@ -108,26 +124,32 @@ hr {
 
 #nav li {
 	display: inline; 
-	padding: 10px; 
+	padding: .5%; 
 	text-align:center;
 }
 
-
 #article1 {
-	width: 375px;
-	font-size:10px;
-	padding: 15px 10px 20px 10px; 
+	width: 42%;
+	font-size:13px;
 	float:left;
+	margin: 10px;
+}
+
+img {
+	max-width:100%;
+	width:100%;
+	height:auto;
 }
 
 #article2 {
-	width: 375px;
-	font-size:10px;
-	padding: 15px 10px 20px 10px; 
+	width: 42%;
+	font-size:13px;
 	float:left;
+	margin: 10px;
 }
 
 h1{
+    font-family: 'helvetica';
 	text-transform:normal;
 	font-size:18px;
 	font-weight:bold;
@@ -159,6 +181,17 @@ span {
 	color:red;
 }
 
+@media screen and (max-width:500px) { 
+	#article1, #article2{
+		float:none;
+		width:95%;}
+	#wiki, #martha {
+		float:none;
+		text-align:center;}
+	#nav li {
+		display:block;}
+	#nav .bullet {display:none;}
+}
 
 
 
