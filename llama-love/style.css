@@ -52,4 +52,52 @@ table {
 
 /* -----------------END RESET---------------- */
 
+body {
+	font-family: 'helvetica', 'sans';
+	max-width:1000px;}
+	
+h1 {
+	font-size:25px;
+	font-weight:bold;
+	letter-spacing:.2px;}
+
+h2 {
+	font-size:14px;
+	font-weight:thin;
+	text-color:30% b;}
+	
+#llama1 {
+	float:left;
+	margin:0px 10px 20px 0px;}
+
+#llama2 {
+	clear:both; 
+	float:left;
+	margin:0px 10px 20px 0px;}
+	
+#article1 {
+	float:left;
+	width:42%;
+	margin:10px;}
+
+#article2 {
+	clear:both; 
+	float:left;
+	width:42%;
+	margin:10px;}
+
+p {
+	font-size:14px;}
+	
+img {
+	max-width:200px;
+	width:100%;
+	height:auto;}
+
+
+
+
+
+
+
 
